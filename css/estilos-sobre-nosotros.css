@@ -1,0 +1,10 @@
+#about-us{
+    justify-content: space-around;
+    /* padding-top: 5em; */
+    flex-direction: column;
+}
+
+#about-us article{
+    width: auto;
+    margin: 0.1em;
+}

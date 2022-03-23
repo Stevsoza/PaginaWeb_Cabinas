@@ -1,0 +1,68 @@
+/* #reserv-sect{
+    width: auto;
+} */
+
+#reserv-artc{    
+    background-image: url('..//images/fondo-reserv.jpg');    
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#reserv-artc form{
+    box-shadow: 0.1em 0.1em 2em rgb(37, 37, 37);
+    width: 500px;
+    padding: 2em;
+    border-radius: 0.5em;
+    background-color: rgb(78, 131, 98);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form h1{
+    text-align: center;
+    justify-content: center;
+}
+
+.comment{
+    border-radius: 0.5em;       
+    margin: 1em;
+    padding: 2em;
+}
+
+
+.espacio-1{
+    border: none;    
+    margin: 1em;
+    padding: 0.9em;
+    border-radius: 0.3em ;
+}
+
+.espacio-1:active{
+    border: none;    
+}
+
+.etiqueta{
+    margin: 0.6em;
+}
+
+.button-form{
+    background-color: rgb(226, 226, 226);
+    font-size: 0.8em;
+    border: none;
+    border-radius: 0.2em;
+    padding: 0.5em 1em;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.button-form:hover{
+    background-color: rgb(255, 255, 255);
+}

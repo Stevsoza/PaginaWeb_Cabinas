@@ -1,0 +1,342 @@
+*{    
+    font-family: 'Quicksand', sans-serif;   
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color:  rgb(255, 255, 255);
+    font-size: 17px;
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ocultar{
+    overflow-y: hidden;
+}
+
+section{    
+    background-color: rgb(236, 236, 236);
+    flex: 1 0 auto;
+    display: flex;
+    padding: 0% 9%;
+    align-content: center;
+    justify-content: center;
+}
+
+#seccion1{ 
+    background-color: rgb(236, 236, 236);
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 0% 9%;
+    justify-content: space-between;
+}
+
+#seccion2{
+    background-color: rgb(214, 214, 214);
+    padding: 0em;   
+    margin-top: 0.1em;
+    margin-left: 9%;
+    margin-right: 9%;
+    display: flex;   
+    align-content: center;
+    justify-content: center;
+}
+
+#seccion3{
+    background-color: rgb(214, 214, 214);
+    padding: 0;
+    margin-top: 0.1em;    
+    padding-left: 9%;
+    padding-right: 9%;
+    display: flex;    
+    align-content: center;
+    justify-content: left;
+}
+
+section article{
+    font-size: 1.2em;
+    color: rgb(93, 146, 97);
+    background-color: #ffffff;
+    width: 50%;
+    display: flex;
+    padding: 2em 3em;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text{
+    font-size: 3.2em;
+    font-weight: 700;
+    position: relative;
+    padding-top: 3.8em;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+#ima div:hover {
+    background-blend-mode: darken;
+    transition: filter 1s;
+}
+
+
+.content-imag{   
+    background-position: center center;    
+    background-repeat: no-repeat;
+    background-size: cover;     
+    width: 100%;
+}
+
+#ima{
+    background-image: url('..//images/Volcan.jpg');
+    padding: 1% 5%;
+    color: #ffffff;
+}
+
+#inicio{   
+    margin: 0; 
+    background-image: url("..//images/gortuna.jpg");
+}
+
+header{    
+    padding: 1em 12%;
+    height: 100px;
+    background-color: #ffffff;
+}
+#tour1{
+    justify-content: left;
+    background-image: url('..//images/tourq.jpg');    
+    width: 50%;   
+    padding: 2% 5%;
+}
+#tour2{
+    justify-content: right;
+    background-image: url('..//images/tour_2.jpg');
+    width: 50%; 
+    padding: 2% 5%;  
+}
+
+header nav div{  
+    display: flex;
+    justify-content: center;
+    width: 7em;
+}
+
+ nav{ 
+    display: flex;
+    justify-content: space-between;
+ }
+
+
+.menu{
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+li{   
+    text-align: center;
+    /* flex: auto;  */
+    font-size: 1em; 
+    list-style: none;
+    min-width: 6em;
+    display: inline;
+}
+
+.m_button{   
+    font-family: 'Quicksand', sans-serif;   
+    border: 1px solid #ffffff;
+    color: #2a2a2a;
+    display: block;
+    margin: 0.2em 0.2em;
+    border-radius: 0.2em;
+    padding: 0.5em 0.7em;
+    text-decoration: none;
+}
+
+.m_button:hover{    
+    color: rgb(8, 156, 52);
+    border: 1px solid;
+}
+
+
+footer{
+    padding: 2em 11%;
+    color: #ffffff;
+    font-size: 1em;    
+    background-color: rgb(95, 121, 97);
+}
+
+
+footer div{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    position: relative;
+    background-image: url('..//logo.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 10em;
+}
+.links{  
+      /* a continuación un estilo en linea */
+    display: inline-block;
+}
+
+
+footer div .links a{
+    padding: 0 0.5em;
+    border-right: 1px solid ;
+    text-decoration: none;
+    color: inherit;
+}
+
+.redes-sociales{
+    align-items: center;
+    padding: 1em 1em;
+    display: flex;    
+    justify-content: center;
+}
+
+#imags{
+    background-color: rgb(233, 233, 233);
+    margin-top: 1em;
+}
+
+.redes-sociales div a img{
+    opacity: 0.4;
+    height: 40px;
+}
+
+.redes-sociales div{
+    display: flex;
+    padding: 0 1em;
+}
+
+.redes-sociales div a img:hover{
+    opacity: 0.6;
+}
+
+.links a:hover{
+    color: blanchedalmond;
+    transition: color 0.7s;
+}
+
+footer div .links a:last-child{
+    border: none;
+}
+
+
+#sec-habs{
+    color: rgb(93, 146, 97);
+    justify-content: left;
+}
+#info-hab{
+    padding: 2em 4em;
+    font-size: 1.7em;
+    
+}
+
+#gal-habts{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 4em 2em;
+}
+
+#gal-habts img:hover{
+    filter: brightness(100%);    
+    transition: filter 1.2s;
+}
+
+#gal-habts img{
+    max-width: 400px;
+    display: flex;
+    border-radius: 0.2em;    
+    filter: brightness(70%);
+    margin: 1em;
+    object-fit: cover;
+    flex-grow: 1 0 1;
+}
+
+.toggle i{
+    color: gray;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.toggle {
+    display: none;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-bar-100{
+    font-size: 45px;
+    position: absolute;
+    display: none;
+    background-color: white;
+    top: 110px;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 4;
+}
+
+@media(max-width:1300px){
+    header{
+        display: inline-block;
+        margin: 20px;
+        
+    }
+    .menu{
+        display: none;
+        position: relative;
+    }
+    .menu li{
+        display: block;
+    }
+    .toggle{
+        display: block;
+    }
+}
+
+
+.vid{
+    padding: 0em;   
+    margin-top: 0.1em;
+    margin-left: 9%;
+    margin-right: 9%;
+    overflow: hidden;
+}
+
+.text2{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    font-weight: 700;
+    top: -50px;
+    left: 50px;
+    z-index: 2;
+}
